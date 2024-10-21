@@ -1,0 +1,58 @@
+body{
+     margin: 0;
+     font-size: 5rem;
+}
+.colores{
+     color: #00CFE2;
+     color: #00B0C0;
+     color: #00D8EA;
+     color: #00919E;
+     color: #00727C;
+     color: #00535A;
+     color: #00434B;
+}
+.contenedor-flexible{
+     background-color: #00CFE2;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 20px;
+     align-content: center;
+}
+.elemento-flexible{
+     height: 200px;
+     flex-basis: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-grow: 1;
+     flex-shrink: 1;
+}
+.uno{
+     background-color: #00B0C0;
+}
+.dos{
+     background-color: #00D8EA;
+}
+.tres{
+     background-color: #00919E;
+}
+.cuatro{
+     background-color: #00727C;
+}
+.cinco{
+     background-color: #00535A;
+}
+.seis{
+     background-color: #00434B;
+}
+.siete{
+     background-color: #00B0C0;
+}
+.ocho{
+     background-color: #00D8EA;
+}
